@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+History ${1:name}(${2:0.0});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>history</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.genexpr</scope>
+</snippet>

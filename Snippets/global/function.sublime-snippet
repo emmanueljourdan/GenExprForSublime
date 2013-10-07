@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+${1:functionName}(${2:arg1}${3:, ${4:arg2...}})
+{
+	${5:/* your function body */}
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>function</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.genexpr</scope>
+</snippet>

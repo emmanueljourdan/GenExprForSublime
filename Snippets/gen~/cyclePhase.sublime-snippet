@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+${1:sampleName}${2:, ${3:sampleIndex}} = cycle(${4:0}, index="phase"${5:, name="${6:buffername}"});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>cyclePhase</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.genexpr</scope>
+	<description>Cycle operator with phase input</description>
+</snippet>

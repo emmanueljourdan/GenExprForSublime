@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+return ${1:something}${2:, ${3:somethingElse}${4:, ${5:andAThirdOne}}};
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>return</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.genexpr</scope>
+</snippet>
