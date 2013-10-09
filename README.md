@@ -1,8 +1,7 @@
 # GenExprForSublime
 
 ##What's that?
-It's a group of snippets for developing gen code for [Max](http://www.cycling74.com).
-
+It's a syntax highlighting theme and snippets for developing [gen](http://cycling74.com/products/gen/) code for [Max](http://www.cycling74.com).
 
 
 
