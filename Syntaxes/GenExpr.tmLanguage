@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>gendsp</string>
+		<string>genexpr</string>
+	</array>
+	<key>foldingStartMarker</key>
+	<string>(?x)
+		 /\*\*(?!\*)
+		|^(?![^{]*?//|[^{]*?/\*(?!.*?\*/.*?\{)).*?\{\s*($|//|/\*(?!.*?\*/.*\S))\b
+	</string>
+	<key>foldingStopMarker</key>
+	<string>(?&lt;!\*)\*\*/|^\s*\}\b</string>
+	<key>name</key>
+	<string>GenExpr</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>include</key>
+			<string>source.c</string>
+		</dict>
+		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>constant.string.genexpr</string>
+				</dict>
+			</dict>
+			<key>match</key>
+			<string>\b(in|out|in1|in2|in3|in4|in5|in6|in7|in8|in9|out1|out2|out3|out4|out5|out6|out7|out8|out9|in10|in11|in12|in13|in14|in15|in16|in17|in18|in19|out10|out11|out12|out13|out14|out15|out16|out17|out18|out19|pi|twopi|halfpi|invpi|degtorad|radtodeg|e|ln2|ln10|log10e|log2e|sqrt2|sqrt1_2|PI|TWOPI|HALFPI|INVPI|DEGTORAD|RADTODEG|E|LN2|LN10|LOG10E|LOG2E|SQRT2|SQRT1_2)\b</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>source.genexpr</string>
+	<key>uuid</key>
+	<string>acf4bdb6-b7b6-498e-b737-2fedd7355b14</string>
+</dict>
+</plist>
