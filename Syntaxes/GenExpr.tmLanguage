@@ -28,11 +28,23 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>constant.string.genexpr</string>
+					<string>support.constant.genexpr</string>
 				</dict>
 			</dict>
 			<key>match</key>
 			<string>\b(in|out|in1|in2|in3|in4|in5|in6|in7|in8|in9|out1|out2|out3|out4|out5|out6|out7|out8|out9|in10|in11|in12|in13|in14|in15|in16|in17|in18|in19|out10|out11|out12|out13|out14|out15|out16|out17|out18|out19|pi|twopi|halfpi|invpi|degtorad|radtodeg|e|ln2|ln10|log10e|log2e|sqrt2|sqrt1_2|PI|TWOPI|HALFPI|INVPI|DEGTORAD|RADTODEG|E|LN2|LN10|LOG10E|LOG2E|SQRT2|SQRT1_2)\b</string>
+		</dict>
+		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>support.class.genexpr</string>
+				</dict>
+			</dict>
+			<key>match</key>
+			<string>\b(Buffer|channels|cycle|Data|dim|lookup|nearest|peek|poke|sample|splat|wave|atodb|dbtoa|ftom|mstosamps|mtof|sampstoms|fixdenorm|fixnan|isdenorm|isnan|Delay|History|fftinfo|change|dcblock|delta|interp|latch|phasewrap|sah|\*=|mulequals|\+=|accum|plusequals|counter|phasor|rate|train|triangle)\b</string>
 		</dict>
 	</array>
 	<key>scopeName</key>
