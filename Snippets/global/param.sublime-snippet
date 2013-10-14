@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+Param ${1:paramName}(${2:0.0}${3:${4:, min=${5:0.0}}${6:, max=${7:1.0}}});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>param</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.genexpr</scope>
+</snippet>
