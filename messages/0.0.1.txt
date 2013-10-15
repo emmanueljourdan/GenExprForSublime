@@ -1,3 +1,2 @@
-Version 0.0.1:
 - contains basic syntax highlighting
 - a bunch of snippets for creating params, history, buffer, cycle, data, functions... more to come
