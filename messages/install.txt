@@ -1,0 +1,1 @@
+Thanks for installing GenExpr For Sublime. With it you will be able to write Gen code for Max (http://cycling74.com/products/gen/) in no time!
