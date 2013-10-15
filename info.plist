@@ -9,7 +9,7 @@
 	<key>contactName</key>
 	<string>e--j dev</string>
 	<key>description</key>
-	<string>Sublime Text syntax and snippets bundle developed by e--j dev at &lt;a href="https://github.com/emmanueljourdan/"&gt;AngularUI&lt;/a&gt;</string>
+	<string>Sublime Text syntax and snippets bundle for GenExpr code (http://cycling74.com/products/gen) developed by e--j dev and hosted on &lt;a href="https://github.com/emmanueljourdan/"&gt;github&lt;/a&gt;</string>
 	<key>uuid</key>
 	<string>5804c8f1-1942-4674-b3ce-b6a8410682d1</string>
 </dict>
