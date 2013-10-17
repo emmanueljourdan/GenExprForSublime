@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+Delay ${1:name}(${2:44100});
+${3:${1:name}.read(${4:44100}${5:, interp="${6:linear}"});
+${7:${1:name}.write(${8:someSample});}}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>delay</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.genexpr</scope>
+</snippet>
