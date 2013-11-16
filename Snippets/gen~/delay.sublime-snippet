@@ -1,8 +1,8 @@
 <snippet>
 	<content><![CDATA[
 Delay ${1:name}(${2:44100});
-${3:${1:name}.read(${4:44100}${5:, interp="${6:linear}"});
-${7:${1:name}.write(${8:someSample});}}
+${3:${4:tmp} = ${1:name}.read(${5:44100}${6:, interp="${7:linear}"});
+${8:${1:name}.write(${9:someSample});}}
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>delay</tabTrigger>
