@@ -1,12 +1,10 @@
 <snippet>
 	<content><![CDATA[
-Data ${1:name}(${2:${3:512}}${4:, ${5:1}});
-${6:${7:${1:name}_dim} = dim(${1:name});
-${8:${1:name}_chans} = channels(${1:name});}
+${1:wrappedValue} = wrap(${2:input}, ${3:minimum}, ${4:maximum});
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>data</tabTrigger>
+	<tabTrigger>wrap</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.genexpr</scope>
-	<description>Data Object</description>
+	<description>Wrap a number between 2 values</description>
 </snippet>
