@@ -1,4 +1,5 @@
-GenExpr for Sublime
-- for snippet
+GenExpr for Sublime v0.0.4:
+- for loop snippet
 - wrap snippet
+- peek and poke snippets
 - added return value for delay snippet
