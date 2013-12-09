@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+poke(${1:bufferOrDataName}, ${2:sampleToWrite}, ${3:sampleIndex}, 0${4: /* channel */}, 0${5: /* overdub */}, index="${6:samples}");
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>poke</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.genexpr</scope>
+</snippet>

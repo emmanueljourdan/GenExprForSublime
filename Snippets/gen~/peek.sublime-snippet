@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+${1:sampleOut}${2:, ${3:sampleIndex}} = peek(${4:bufferOrDataName}, ${5:position}, 0${6: /* channel offset */}, index="${7:samples}", channels=${8:1});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>peek</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.genexpr</scope>
+</snippet>
